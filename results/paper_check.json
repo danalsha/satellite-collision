@@ -1,0 +1,61 @@
+{
+ "n_splits": 505,
+ "models_per_split": 3,
+ "test_size": 0.2,
+ "lrp_f2_mean": 0.5982756082655062,
+ "lrp_f2_sd": 0.046309567134319,
+ "lrp_ap_mean": 0.3899656497508318,
+ "paper_reported": {
+  "lrp_f2_mean": 0.59967,
+  "lrp_f2_sd": 0.04391,
+  "lgbm_f2_mean": 0.60732,
+  "lgbm_f2_sd": 0.04895,
+  "gain_pct": 1.2743,
+  "paired_t": 10.23,
+  "p_value": 1.83e-22,
+  "n_splits": 505,
+  "models_per_split": 100
+ },
+ "lgbm": {
+  "settings": "LightGBM exactly as in the paper (25 trees, lr 0.05, 25 % of features per tree)",
+  "f2_mean": 0.6042300273431371,
+  "f2_sd": 0.04836963143691381,
+  "gain_pct": 0.9952635533468923,
+  "f2_diff_mean": 0.005954419077630966,
+  "f2_diff_sd": 0.01914591095047248,
+  "splits_better": 326,
+  "splits_worse": 179,
+  "paired_t": 6.981980491834191,
+  "p_value": 9.225030803368933e-12,
+  "ap_mean": 0.4196073190615845,
+  "mean_abs_shift_of_forecast": 0.14229499826284417
+ },
+ "hgb_paper": {
+  "settings": "sklearn HGB with the paper's settings (25 trees, lr 0.05, 25 % of features)",
+  "f2_mean": 0.5729074735064273,
+  "f2_sd": 0.05709014681856475,
+  "gain_pct": -4.240208761414321,
+  "f2_diff_mean": -0.025368134759078807,
+  "f2_diff_sd": 0.040811349009677894,
+  "splits_better": 135,
+  "splits_worse": 370,
+  "paired_t": -13.954775489652429,
+  "p_value": 1.1786261801492593e-37,
+  "ap_mean": 0.4525212167255007,
+  "mean_abs_shift_of_forecast": 0.5729515878409583
+ },
+ "hgb_ours": {
+  "settings": "sklearn HGB with our models.py settings (150 trees, lr 0.1, 15 leaves)",
+  "f2_mean": 0.4684658074503316,
+  "f2_sd": 0.06772098905147639,
+  "gain_pct": -21.697324614572423,
+  "f2_diff_mean": -0.12980980081517463,
+  "f2_diff_sd": 0.06322841200285992,
+  "splits_better": 5,
+  "splits_worse": 500,
+  "paired_t": -46.09039999996676,
+  "p_value": 7.07793787257684e-183,
+  "ap_mean": 0.4036407152867402,
+  "mean_abs_shift_of_forecast": 2.9215050749035774
+ }
+}

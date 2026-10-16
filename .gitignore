@@ -1,0 +1,9 @@
+# the raw ESA database and its zip are 221 MB (over GitHub's 100 MB file limit): get_data.py downloads them
+data/Collision Avoidance Challenge - Dataset.zip
+data/Collision Avoidance Challenge - Dataset/
+# the cleaned and feature-engineered tables in data/processed/ ARE committed (the notebook runs from them)
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+logs/
+.DS_Store

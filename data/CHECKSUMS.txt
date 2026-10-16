@@ -1,0 +1,6 @@
+df1500146705305006ea506eeccc97f5c2e9593928d6650c503c4f5b5529d0bb  Collision Avoidance Challenge - Dataset.zip  221,128,642 bytes
+9c30d0bcc42a66818ee0958482694ca7fc1168682b02d3f1e26220198e89c06b  Collision Avoidance Challenge - Dataset/raw_data/raw_data_2015-2019.gz  118,399,589 bytes
+ba47ce80580d5d6ff523ddc1d724901dbdfb3a5afdc5e755f0ca2bcefe6e4eb6  Collision Avoidance Challenge - Dataset/kelvins_competition_data/train_data.csv  233,600,296 bytes
+fc4110e979e7d569cb8aa819d450d29311e799115b2fe5b519b8a18eafa37323  Collision Avoidance Challenge - Dataset/kelvins_competition_data/test_data.csv  35,303,060 bytes
+f623dd155544edad62ad606b821104488403a88f259fd6779eece454202641c9  Collision Avoidance Challenge - Dataset/kelvins_competition_data/test_data_private.csv  3,042,300 bytes
+fe4a867f15fc967a24a8a6272519515a65e35bea93814a03f31d0f3feb582f61  processed/events.csv.gz  11,706,877 bytes

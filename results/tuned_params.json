@@ -1,0 +1,24 @@
+{
+ "logreg": {
+  "C": 0.01
+ },
+ "tree": {
+  "max_depth": 6,
+  "min_samples_leaf": 100
+ },
+ "nn": {
+  "units": [
+   64,
+   32
+  ],
+  "lr": 0.001
+ },
+ "svm": {
+  "C": 0.3,
+  "gamma": 0.001
+ },
+ "hgb": {
+  "learning_rate": 0.05,
+  "max_leaf_nodes": 7
+ }
+}

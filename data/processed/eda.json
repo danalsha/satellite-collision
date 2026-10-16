@@ -1,0 +1,140 @@
+{
+ "cdms_raw": 199082,
+ "events_raw": 15321,
+ "high_risk_raw": {
+  "-6": 515,
+  "-5": 131,
+  "-4": 30
+ },
+ "cdms_with_negative_time_to_tca": 488,
+ "events_with_a_usable_cdm": 14109,
+ "eligible_events": 10460,
+ "eligible_high_risk": 216,
+ "eligible_base_rate": 0.0207,
+ "esa_test_events": 2167,
+ "esa_test_high_risk": 150,
+ "esa_train_eligible_events": 8293,
+ "esa_train_eligible_high_risk": 66,
+ "lrp_confusion_all_eligible": {
+  "TP": 162,
+  "FP": 324,
+  "FN": 54,
+  "TN": 9920
+ },
+ "cdms_used_per_event": {
+  "count": 10460.0,
+  "mean": 11.2,
+  "std": 4.79,
+  "min": 1.0,
+  "25%": 7.0,
+  "50%": 14.0,
+  "75%": 15.0,
+  "max": 17.0
+ },
+ "latest_usable_time_to_tca": {
+  "count": 10460.0,
+  "mean": 2.314,
+  "std": 0.588,
+  "min": 2.0,
+  "25%": 2.094,
+  "50%": 2.186,
+  "75%": 2.287,
+  "max": 6.952
+ },
+ "missions": {
+  "1": {
+   "events": 1666,
+   "high": 42
+  },
+  "2": {
+   "events": 1469,
+   "high": 42
+  },
+  "3": {
+   "events": 427,
+   "high": 16
+  },
+  "4": {
+   "events": 253,
+   "high": 11
+  },
+  "5": {
+   "events": 1622,
+   "high": 25
+  },
+  "6": {
+   "events": 694,
+   "high": 9
+  },
+  "7": {
+   "events": 1451,
+   "high": 6
+  },
+  "9": {
+   "events": 304,
+   "high": 3
+  },
+  "10": {
+   "events": 66,
+   "high": 1
+  },
+  "13": {
+   "events": 3,
+   "high": 0
+  },
+  "14": {
+   "events": 5,
+   "high": 2
+  },
+  "15": {
+   "events": 1639,
+   "high": 31
+  },
+  "16": {
+   "events": 69,
+   "high": 9
+  },
+  "18": {
+   "events": 96,
+   "high": 6
+  },
+  "19": {
+   "events": 626,
+   "high": 10
+  },
+  "20": {
+   "events": 25,
+   "high": 2
+  },
+  "22": {
+   "events": 14,
+   "high": 1
+  },
+  "23": {
+   "events": 14,
+   "high": 0
+  },
+  "24": {
+   "events": 17,
+   "high": 0
+  }
+ },
+ "object_type": {
+  "DEBRIS": 6078,
+  "UNKNOWN": 2996,
+  "PAYLOAD": 1249,
+  "ROCKET BODY": 129,
+  "TBA": 8
+ },
+ "missing_fraction_top": {
+  "c_rcs_estimate": 0.3,
+  "c_ctdot_n": 0.109,
+  "t_cndot_rdot": 0.109,
+  "c_ctdot_t": 0.109,
+  "c_ctdot_r": 0.109,
+  "c_crdot_n": 0.109,
+  "c_crdot_t": 0.109,
+  "c_crdot_r": 0.109
+ },
+ "n_columns": 175
+}

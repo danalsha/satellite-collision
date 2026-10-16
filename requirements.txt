@@ -1,0 +1,9 @@
+# Versions used for the results in results/ (Python 3.10.12, Linux x86_64, CPU only)
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
+scikit-learn==1.7.2
+tensorflow==2.21.0
+matplotlib==3.10.9
+lightgbm==4.7.0      # only for paper_check.py; that setting is skipped if it is missing
+pytest

@@ -1,0 +1,57 @@
+{
+ "fold": 0,
+ "n_train": 8293,
+ "n_test": 2167,
+ "pos_train": 66,
+ "pos_test": 150,
+ "base_rate_test": 0.0692201199815413,
+ "n_log_columns": 63,
+ "missions_test": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  9,
+  10,
+  14,
+  15,
+  16,
+  18,
+  19,
+  20,
+  22,
+  23,
+  24
+ ],
+ "models": {
+  "nn": {
+   "ap": 0.30667369097827624,
+   "roc": 0.8440918856387375,
+   "f2": 0.2995720399429387,
+   "precision": 0.4158415841584158,
+   "recall": 0.28,
+   "tp": 42,
+   "fp": 59,
+   "fn": 108,
+   "threshold": 0.10925710946321487,
+   "n": 2167,
+   "n_pos": 150,
+   "brier": 0.06465779893465243,
+   "f2_at_lrp_rate": 0.41131105398457585,
+   "n_flag_lrp": 178,
+   "train_inner_f2": 0.19896193771626297,
+   "train_inner_ap": 0.05139340383988236,
+   "best_epoch": 30
+  }
+ },
+ "seconds": 37.2,
+ "code_sha256": {
+  "config.py": "f074a1452d2185c5d0b0c4ad0b2732234574e041be5ac4eafceb07d586343ab6",
+  "build_table.py": "efb190c9b6a6e0a6bcd051c295de55e1ea9fb0792c0da4afeaacb1f23d003df4",
+  "models.py": "066d22fc5f1a40a5a722efec072ba25eda736073ce0eedc4032a565cbfc4ae73"
+ },
+ "timestamp": "2026-10-16 01:17:31"
+}

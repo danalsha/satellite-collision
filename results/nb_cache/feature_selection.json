@@ -1,0 +1,46 @@
+{
+ "kept": [
+  "risk",
+  "risk_mean",
+  "mahalanobis_distance",
+  "mahalanobis_distance_slope",
+  "c_j2k_ecc",
+  "relative_position_t",
+  "max_risk_estimate",
+  "risk_change",
+  "c_cndot_n",
+  "c_cndot_rdot",
+  "t_cd_area_over_mass",
+  "miss_distance_max",
+  "risk_max",
+  "relative_position_n",
+  "c_j2k_inc",
+  "c_sigma_ndot",
+  "risk_std",
+  "mahalanobis_distance_max",
+  "AP",
+  "c_obs_used_min"
+ ],
+ "results": {
+  "Gradient boosting | all 167 columns": {
+   "PR-AUC": 0.4440768881089818,
+   "ROC-AUC": 0.9743720703235839,
+   "F2 at naive alert count": 0.6007067137809188
+  },
+  "Gradient boosting | 20 selected columns": {
+   "PR-AUC": 0.5068561129165906,
+   "ROC-AUC": 0.9684361060982669,
+   "F2 at naive alert count": 0.5477031802120141
+  },
+  "Logistic regression | all 167 columns": {
+   "PR-AUC": 0.38325824922120855,
+   "ROC-AUC": 0.957528913707197,
+   "F2 at naive alert count": 0.5123674911660777
+  },
+  "Logistic regression | 20 selected columns": {
+   "PR-AUC": 0.37093112659058497,
+   "ROC-AUC": 0.9596853825462222,
+   "F2 at naive alert count": 0.49469964664310956
+  }
+ }
+}
